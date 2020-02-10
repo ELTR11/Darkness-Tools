@@ -1,6 +1,8 @@
 # Using
 
-Darkness Tools is a Node.JS module, that provides convenient functions, that make coding easier
+Darkness Tools is a Node.JS module, that provides convenient functions, that make coding easier.
+
+P.S. There will be no conflicts with native methods in new methods of global classes - if one of them already exists, it will not be replaced by a new one
 # Installation
 
 ```bash
