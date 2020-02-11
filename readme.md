@@ -82,7 +82,11 @@ Returns a new string with first symbol at upper case
 ### toBoolean()
 Converts string to `boolean`
 ```js
-'darkness'.firstToUpperCase() // Darkness
+'true'.toBoolean() // true
+
+'0'.toBoolean() // false
+
+'str'.toBoolean() // true
 ```
 ## Array
 ### randomElement()
@@ -141,14 +145,14 @@ JSON.stringify(user)  // "{"name":"Fluffy","age":20,"friends":["John","Helen"]}"
 
 //new method
 user.toShowString() // result will be:
-"{
+{
     "name": "Fluffy",
     "age": 20,
     "friends": [
         'John',
         'Helen'
     ]
-}"
+}
 ```
 ### createCopy()
 Returns a copy of object. Also, all values of keys of object will be also copies, not a links to it
